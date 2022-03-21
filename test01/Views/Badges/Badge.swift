@@ -18,7 +18,7 @@ struct Badge: View {
     }
     
     var body: some View {
-        ZStack {
+        ZStack { //ZStack overlays views on top of each other
             Badgebackground()
             
             GeometryReader { geometry in //correct the badge size
